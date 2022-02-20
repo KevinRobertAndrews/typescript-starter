@@ -5,6 +5,6 @@
  * @param b - second number
  * @param c - third number
  */
-function average(a: number, b:number, c:number): number {
+export function average(a: number, b:number, c:number): number {
     return (a + b + c) / 3;
 }

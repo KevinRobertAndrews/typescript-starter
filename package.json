@@ -1,0 +1,20 @@
+{
+  "name": "typescript-starter",
+  "version": "0.0.1",
+  "description": "My personal starter for Typescript projects.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch --perserveWatchOutput",
+    "lint": "eslint src --ext js,ts",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Kevin Robert Andrews",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "jest": "^27.5.1",
+    "typescript": "^4.5.5"
+  }
+}
